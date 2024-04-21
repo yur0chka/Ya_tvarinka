@@ -64,14 +64,14 @@ class 	Martes_foina extends Animal implements Colorful {
 
 $snowball = new Cat("Сніжок", "білий");
 $barsik = new Cat("Барсик", "рудий");
-$wolf = new Martes_foina("Куна", "сірий");
+$rupicapra = new Martes_foina("Козиця", "чорний");
 
 $snowball->setName("Снігур");
 $barsik->setName("Мурчик");
-$wolf->setName("Куна_куна");
+$rupicapra->setName("Козиця");
 
 $snowball->sayHello();
 $barsik->sayHello();
-$wolf->sayHello();
+$rupicapra->sayHello();
 
 ?>
